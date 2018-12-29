@@ -1,0 +1,38 @@
+item-detail {
+  // variables
+  $white: #fff;
+
+  .main {
+    position: relative;
+    margin: 0 auto;
+    box-shadow: none;
+    width: 100%;
+    box-shadow: none;
+    transform: translateY(0px) !important;
+    border-radius: 0px;
+    &__title {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      font-size: 5rem;
+      color: $white;
+      font-weight: 800;
+    }
+    &__card {
+      background: transparent;
+      &__box {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem 1rem;
+        &__title {
+          p {
+            color: $white;
+            font-size: 1.7rem;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
