@@ -1,0 +1,13 @@
+<ion-content (click)="backToItems()" padding>
+  <ion-card id="item" class="main">
+    <h1 class="main__title">{{ item.title }}</h1>
+    <img src="{{ item.image }}" />
+    <div class="main__card">
+      <div class="main__card__box">
+        <div class="main__card__box__title">
+          <p>{{ item.subtitle }}</p>
+        </div>
+      </div>
+    </div>
+  </ion-card>
+</ion-content>
